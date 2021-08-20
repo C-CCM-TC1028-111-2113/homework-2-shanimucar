@@ -29,7 +29,10 @@ def main():
         print(z)
         print(x)
         print(y)
-
+    elif x == y and y ==z:
+        print(x)
+        print(y)
+        print(z)
 
 if __name__=='__main__':
     main()
