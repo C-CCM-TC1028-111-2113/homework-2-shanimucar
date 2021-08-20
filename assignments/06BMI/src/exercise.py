@@ -12,7 +12,7 @@ def main():
     if altura <= 0:
         print("Revisa tus datos, alguno de ellos es erróneo.")
 
-    imc = float(peso/(altura**2))
+    imc = peso/(altura**2)
 
     if peso > 0 and altura > 0:
         if imc <= 20:
