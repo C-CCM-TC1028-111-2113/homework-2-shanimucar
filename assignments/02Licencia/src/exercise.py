@@ -13,8 +13,10 @@ def main():
             print('No cumples requisitos')
         elif identificación != ('s') or ('n'):
             print('Respuesta incorrecta')
-    else:
+    elif edad <18 and edad>0:
         print("No cumples requisitos")
+    elif edad <= 0:
+        print("Respuesta incorrecta")    
 
 
 
