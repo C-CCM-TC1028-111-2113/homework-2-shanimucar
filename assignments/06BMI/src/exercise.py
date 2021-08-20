@@ -13,13 +13,13 @@ def main():
         imc = peso/(altura**2)
         if imc < 20:
             print("PESO BAJO")
-        elif imc <= 20 and imc < 25:
+        elif 20<=imc<25:
             print("NORMAL")
-        elif imc <= 25 and imc < 30:
+        elif 25<=imc<30:
             print("SOBREPESO")
-        elif imc <= 30 and imc < 40:
+        elif 30<=imc<40:
             print("OBESIDAD")
-        elif imc >= 40:
+        elif imc>=40:
             print("OBESIDAD MORBIDA")
         else:
             print("Revisa tus datos, alguno de ellos es erróneo.")
