@@ -9,7 +9,7 @@ def main():
             print('Trámite de licencia concedido')
         elif identificación == ('n'):
             print('No cumples requisitos')
-        else:
+        elif identificación != ('s') and ('n'):
             print('Respuesta incorrecta')
     else:
         print("No cumples requisitos")
